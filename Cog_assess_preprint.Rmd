@@ -1,0 +1,92 @@
+---
+title             : "What are Educational Psychologist's views towards standardised cognitive assessments?"
+shorttitle        : "EP views on cognitive assessments"
+
+author: 
+  - name          : "Patrick Langford"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    email         : "pjclangford@tutanota.com"
+
+abstract: |
+  Standardised cognitive assessments form a core part of many Educational Psychologist’s (EPs) work. However, these tools are controversial and there are many questions around their use. These questions range from questions around how many EPs use standardised cognitive assessments and their views of them to what alternatives they use. There is also a lack of data on EPs views towards the training they received on standardised cognitive assessments.
+  
+  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
+  
+  One sentence clearly stating the **general problem** being addressed by  this particular study.
+  
+  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
+  
+  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
+  
+  One or two sentences to put the results into a more **general context**.
+  
+  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : ["r-references.bib"]
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+csl: apa
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+r_refs("r-references.bib")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+# Introduction
+
+Research questions
+1) What are EPs and TEPs views towards the use of standardised cognitive assessments, including the reasons for their use?
+2) What are some of the alternative tools EPs and TEPs use to explore cognitive ability?
+3) What are EPs and TEPs views towards the training they received on standardised cognitive assessments?
+
+# Methods
+We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
+
+## Participants
+
+## Material
+
+## Procedure
+
+## Data analysis
+We used `r cite_r("r-references.bib")` for all our analyses.
+
+
+# Results
+
+# Discussion
+
+
+\newpage
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id="refs" custom-style="Bibliography"></div>
+\endgroup
